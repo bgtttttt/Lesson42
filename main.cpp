@@ -8,5 +8,9 @@ int main() {
 
 	cout << size << "\n" << pSize << "\n" << *pSize;
 
+	delete pSize;
+
+	cout << size << "\n" << pSize << "\n" << *pSize;
+
 	return 0;
 }
